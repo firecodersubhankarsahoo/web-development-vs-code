@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <style>
+    /* Write your CSS code here */
+
+
+
+  /*2. Set their sizes to 200px heigh by 200px wide. */
+    div{
+      height: 200px;
+      width: 200px; ;
+    }
+/*6. Fix the style of the <p> element to remove all margins. */
+    p{
+      margin: 0;   
+    }
+
+/* 5. Set the 1st div to have 20px padding all around with a black 10px border.*/
+    #firstbox{
+      background-color:cadetblue;   /*first box background color */
+      padding: 20px;                  /* Set the 1st div to have 20px padding */
+      border: 10px solid black;   /*  all around with a black  bold  10px border.*/
+    }
+
+/*7. Set the 2nd div to have a 20px border on top and bottom and 10px border left and right. (See goal image)*/
+    #secondbox{
+      background-color: gold;   /*secound box background color */
+      border: 10px solid black;  /*setting the border of 2nd box */
+        border-width: 20px 10px;  /* re sixe the border size of top_down  and left-right*/
+        margin-left: 259px;  /*set the margin to connect the corner of 1st box */
+
+    }
+/* 8. Set the 3rd div to have a 10px border */
+    #thirdbox{
+      background-color: indianred;   /*third box background color */
+      border: 10px solid black;   /*setting the border of 3rd box  */
+      margin-left:40px ;  /* set the margin to connect the corner of 2nd box*/
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!--creating the three box reference to css(style)-->
+
+<!--1. Create 3 Boxes using the div element.-->
+
+
+<!--first box  -->
+  <div id="firstbox">
+      <p>    <!--  to do 4-->
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+      </p>
+      
+  </div>
+
+<!--2nd box-->
+
+  <div id="secondbox">
+
+  </div>
+
+
+<!--3rd box-->
+  <div id="thirdbox">
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- TODOs:
+1. Create 3 Boxes using the div element.
+2. Set their sizes to 200px heigh by 200px wide.
+3. Set different background colors for each of the boxes (I used cadetblue, gold and indianred).
+4. Add a paragraph <p> element into the first div and add the following words:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+5. Set the 1st div to have 20px padding all around with a black 10px border.
+6. Fix the style of the <p> element to remove all margins.
+Hint: Use the CSS inspector in Chrome.
+7. Set the 2nd div to have a 20px border on top and bottom and 10px border left and right. (See goal image)
+8. Set the 3rd div to have a 10px border 
+9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
+-->
+
+</body>
+
+</html>
