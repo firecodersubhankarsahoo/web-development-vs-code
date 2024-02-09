@@ -1,0 +1,32 @@
+
+body{
+    background-color: black;
+}
+
+#box{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+#motivation_image{
+    width:100% ;
+    border: 5px solid  white;
+   
+}
+
+h1{
+    font-family:Libre+Baskerville,specimen;
+        color: white;
+        margin-top: 10px;
+        margin-left: 65px;
+        margin-bottom: 0px;
+}
+p{
+    color: white;
+    font-family: Pacifico;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
