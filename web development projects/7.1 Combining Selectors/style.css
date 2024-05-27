@@ -1,0 +1,46 @@
+/* Write your code here: */
+
+
+
+
+  /*1.    Group combination selectors =apply to  both selector.
+                                                          The following rules apply to <h1> and <h2> elements */
+h1, h2 {
+    color: blueviolet;         /* Set the text color of <h1> and <h2> elements to blueviolet */
+
+  }
+  
+  /*2.  child combination selectors 'class=box' is the parent here and 'p' element is the direct child here
+                                             The following rule applies to <p> elements that are direct children(one level difference b/w parent and child) of elements with the class "box"(parent) */
+  .box > p {
+    color: firebrick;      /* Set the text color of the <p> elements(direct children of class "box" . the level difference should be one ) to firebrick */
+
+  }
+
+  /*3.   (Descendant combination selectors =apply to a descendent of left side) . here the all 'li' element inside the 'class=box' will be applied. similar to child but it can applied to multilevel (child,grand child etc)*/
+  .box li{
+    color: blue;
+  }
+
+
+  /*4.  (Chain combination selectors=apply where all selectors are matched). here all selectors are combined together without space to fetch the appropiate result. note that the order of the chain must maintained                all the 'li' element whose 'class=done'  will be applied as green*/
+
+        li.done{
+            color: seagreen;
+        }
+
+    
+
+
+
+
+/*5.    Combining combiners =combine the different chain combinations. here the chain combination 'p.done' is added to ul element to get the appropriate selectors for appropriate result.  different chain are seperated by space */
+        ul p.done{
+            font-size: 0.3rem;
+        }
+
+        /*OR8/
+
+ /* .box li.done{
+    color: seagreen;
+} */
