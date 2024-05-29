@@ -2,8 +2,9 @@
 <html lang="en">
 
 <!-- TODO
-1. Make both paragraph elements wrap around the image.
-2. Use Float to move the cat div to the left and the dog div to the right.
+
+1. Make  paragraph elements wrap around the image cat.image if cat should be left side 
+2. Make  paragraph elements wrap around the image dog.image if dog should be right side .
 3. Use clear to make the footer go below both the cat and dog div. -->
 
 <head>
@@ -20,17 +21,25 @@
     }
 
     .cat {
+
       background-color: aquamarine;
+      float: left;  /*task 1 done*/
     }
 
     .dog {
       background-color: coral;
+      float: right;   /*task 2 done*/
     }
 
     footer {
       text-align: center;
       background-color: blueviolet;
+      clear: both;    /*task 3 done*/
     }
+   img{
+    float: left;
+   }
+   
   </style>
 </head>
 
