@@ -19,3 +19,51 @@ footer {
   color: midnightblue;
 }
 
+.sp{
+  color: rgb(10, 10, 156);
+}
+
+.left{
+  float: left;
+  width: 45%;
+}
+.right{
+  float: right;
+  width: 45%;
+}
+
+.tile-image{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+@media(max-width:600px){
+  .logo{
+    width: 100px;
+  }
+
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .tile-image{
+    width:500px;
+    height: 500px;
+
+  }
+
+  .card img{
+    margin-bottom: 10px;
+    width: 100%;
+     height: auto;  /* To maintain the aspect ratio of an image while setting its width to 100%, you should set the height to auto. This ensures that the image scales proportionally. Here's how you can do it in CSS: */
+    display: inline;
+    
+  }
+  .card{
+    display:  block;
+    width: 100%;
+    text-align: justify;
+  }
+}
