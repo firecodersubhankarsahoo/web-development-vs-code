@@ -4,3 +4,50 @@
 
 
 in the website write code for the blue boxes so that it behave like the green boxes (check the behaviour by changing the window size)
+
+you can see there that the item 1 is shrinking but the item 2 and 3 is not shrinking at all
+
+
+
+
+
+
+ANS==========>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+/* Write your CSS code below to make the blue items size, grow and shrink like the green ones.*/
+
+.container {
+  justify-content:space-between;
+
+}
+  
+.container > * {
+
+}
+
+.item1 {
+flex-basis:200px;
+flex-shrink:1;
+flex-geow:1;
+}
+
+.item2 {
+flex-basis:200px;
+flex-shrink:0;
+flex-geow:1;
+
+}
+
+.item3 {
+flex-basis:400px;
+flex-shrink:0;
+flex-geow:1;
+
+}
