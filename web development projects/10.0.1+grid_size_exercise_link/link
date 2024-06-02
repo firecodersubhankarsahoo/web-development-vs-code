@@ -1,0 +1,29 @@
+
+
+
+1. https://appbrewery.github.io/grid-sizing/test.html
+
+
+go to the link and write the code so that the purple grid perform like green grid when resizing the window
+
+
+
+/* ans::::------------------- */
+
+
+/* 
+
+.grid-container {
+ display:grid;
+grid-template-columns:auto 400px minmax(200px,500px);
+grid-template-rows:1fr 1fr 2fr;
+grid-auto-rows:50px;
+
+}
+  
+*/
+  
+
+
+
+link of diff grid sizeing:----   https://appbrewery.github.io/grid-sizing/

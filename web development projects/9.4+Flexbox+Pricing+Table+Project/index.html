@@ -17,7 +17,12 @@
       @media (max-width: 1250px) {
         .pricing-container{
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 20px; 
+
+        /* or */
+          /* flex-direction:column;
+          height: 100%; */
+        
       }
       }
 
@@ -25,32 +30,47 @@
         background-color: rgb(233, 222, 208);
         width: 250px;
         height: 200px;
+        text-align: c;
+
+        /* for set the corner curved shave */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 
       }
       .plan-button{
         background-color: orangered;
         color: white;
+        border-radius: 20px;
 
       
         
       }
       .pricing-container{
         display: flex;
-        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 5rem;
       }
       .pricing-container .plan-title{
         text-align: center;
+        font-size: large;
       }
+
 
       .pricing-plan .plan-button{
         margin-left: 35%;
       }
       .pricing-container .plan-price{
         text-align: center;
+        font-weight: bold;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
       }
 
-
+/* check the solution.html  code for the another version of code and the good quality */
       
 
     </style>
