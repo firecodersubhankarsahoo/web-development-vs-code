@@ -1,6 +1,7 @@
 
 
 
+
 1. https://appbrewery.github.io/grid-sizing/test.html
 
 
@@ -8,10 +9,10 @@ go to the link and write the code so that the purple grid perform like green gri
 
 
 
-/* ans::::------------------- */
+ ans::::------------------- 
 
 
-/* 
+
 
 .grid-container {
  display:grid;
@@ -21,7 +22,8 @@ grid-auto-rows:50px;
 
 }
   
-*/
+
+
   
 
 
