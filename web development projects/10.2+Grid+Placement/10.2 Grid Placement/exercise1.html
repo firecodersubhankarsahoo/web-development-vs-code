@@ -12,7 +12,7 @@
     }
 
     .container {
-      height: 100vh;
+      height: 100vh;  /* it sets the hight of the grid container to the hight of the window screen*/
       display: grid;
       gap: 3rem;
       grid-template-columns: 1fr 1fr 1.5fr;
@@ -27,6 +27,11 @@
       /* TODO: Use Flexbox to align the text to the center horizontally and vertically. 
       See goal1 image.
       */
+
+      display: flex;
+      justify-content: center;   /* to move at the main axis(horizontal) cener*/
+      align-items: center;/* to move at the cross axis(vertical) cener*/
+
     }
   </style>
 </head>
