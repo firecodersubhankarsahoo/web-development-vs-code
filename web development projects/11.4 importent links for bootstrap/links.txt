@@ -7,3 +7,7 @@
 2.  also fo to :-https://getbootstrap.com/docs/5.3/getting-started/introduction/
     to get all the prebuild code
 
+
+
+
+3.  different other bootstrap layouts :---https://www.w3schools.com/bootstrap/bootstrap_templates.asp
