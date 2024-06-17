@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "web development projects"
+    "liveServer.settings.multiRootWorkspaceName": "web development projects",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
