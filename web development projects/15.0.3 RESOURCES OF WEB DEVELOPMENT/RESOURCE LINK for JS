@@ -1,14 +1,14 @@
-LINK:---                 https://www.appbrewery.co/p/web-development-course-resources          
+1. LINK:---                 https://www.appbrewery.co/p/web-development-course-resources          
 
 
- addEventListener() method:-----
+2. addEventListener() method:-----
    >>>>>               https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
 
 
 
-   https://developer.mozilla.org/en-US/docs/Web/Events
+3. https://developer.mozilla.org/en-US/docs/Web/Events
 
 
 
@@ -16,9 +16,18 @@ LINK:---                 https://www.appbrewery.co/p/web-development-course-reso
 
    
    
-     (Creating and triggering events)  :                                                                                              https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events   
+4.  (Creating and triggering events)  :                                                                                              https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events   
 
 
 
-     Element: keypress event:--
+5.  Element: keypress event:--
       https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event
+
+
+
+6. The Window Object ,The setTimeout() Method:--- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout1
+
+
+
+7. ********* Window setTimeout():---- https://www.w3schools.com/jsref/met_win_settimeout.asp
+
