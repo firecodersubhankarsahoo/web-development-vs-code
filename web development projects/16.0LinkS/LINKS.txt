@@ -1,0 +1,23 @@
+1. https://jquery.com/
+
+
+
+
+2.Google Hosted Libraries:---------------      https://developers.google.com/speed/libraries#jquery
+
+CDN for jQuery:---  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+
+
+
+
+3. mimimise your js code for faster load :--  https://www.minifier.org/
+
+
+
+
+
+Add animations to the website::---******************************
+
+1. https://www.w3schools.com/jquery/jquery_ref_effects.asp  (jQuery all Effect Methods)
+
+2. https://api.jquery.com/slideDown/
